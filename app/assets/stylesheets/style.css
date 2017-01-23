@@ -2249,16 +2249,10 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	width: 100%;
 	text-align: center;
 	color: transparent;
-	-webkit-animation: blurFadeInOut 3s ease-in backwards;
-	-moz-animation: blurFadeInOut 3s ease-in backwards;
-	-ms-animation: blurFadeInOut 3s ease-in backwards;
-	animation: blurFadeInOut 3s ease-in backwards;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
 }
 .sp-container h2.frame-5 span {
-	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
-	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
-	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
-	animation: blurFadeIn 3s ease-in 12s backwards;
 	color: white;
 	text-shadow: 0px 0px 1px #fff;
 }
